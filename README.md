@@ -3,16 +3,19 @@ This repository is an implementation of "Robust Imitation Learning against Varia
 
 The RIME code are modified from the codes of [pytorch-a2c-ppo-acktr](https://github.com/ikostrikov/pytorch-a2c-ppo-acktr-gail).
 
+
 ## Supported Environments
 + [MuJoCo](https://www.roboti.us/index.html) (via [OpenAI Gym](https://www.gymlibrary.ml/))
 
 I only tested MuJoCo 200 and used MuJoCo tasks with perturbed dynamics. I made these MuJoCo tasks with perturbed dynamics by changing components of xml files for tasks I want to introduce perturbations.
+
 
 ## Requirements
 I provide all libraries and packages for this codes. Try the follow
 ```
 pip install -r requirements.txt
 ```
+
 
 ## Run Example 
 Training and Evaluating agents (via 10 random seeds). You can change env-parameter, algo-name as follows for selecting other dynamics perturbation type or testing other algorithms.
