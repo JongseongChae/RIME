@@ -15,7 +15,9 @@ pip install -r requirements.txt
 ```
 
 ## Run Example 
-Training and Evaluating agents (via 10 random seeds). You can change env-parameter(gravity/mass), algo-name(RIME/RIME+WSD/OMME/GAIL-Mixture/GAIL-Single) for selecting other dynamics perturbation type or testing other algorithms.
+Training and Evaluating agents (via 10 random seeds). You can change env-parameter, algo-name as follows for selecting other dynamics perturbation type or testing other algorithms.
++ env-parameter: gravity / mass
++ algo-name: RIME / RIME+WSD / OMME / GAIL-Mixture / GAIL-Single
 ```
 # train the agent in the 2 sampled interaction environments setting
 python main.py --env-name=Hopper-v2 --env-parameter=gravity --sampled-envs=2 --expert-path1=ED_Hopper050g-v2 --expert-path2=ED_Hopper150g-v2 --algo-name=RIME+WSD
