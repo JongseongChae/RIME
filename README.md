@@ -5,6 +5,7 @@ The RIME code are modified from the codes of [pytorch-a2c-ppo-acktr](https://git
 
 ## Supported Environments
 + [MuJoCo](https://www.roboti.us/index.html) (via [OpenAI Gym](https://www.gymlibrary.ml/))
+
 I only tested MuJoCo 200 and used MuJoCo tasks with perturbed dynamics. I made these MuJoCo tasks with perturbed dynamics by changing components of xml files for tasks I want to introduce perturbations.
 
 ## Requirements
