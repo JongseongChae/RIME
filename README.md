@@ -23,11 +23,11 @@ For training and evaluating agents (via 10 random seeds). You can change env-par
 + algo-name: RIME / RIME+WSD / OMME / GAIL-Mixture / GAIL-Single
 ```
 # train the agent in the 2 sampled interaction environments setting
-python main.py --env-name=Hopper-v2 --env-parameter=gravity --sampled-envs=2 --algo-name=RIME+WSD --expert-path1=ED_Hopper050g-v2 --expert-path2=ED_Hopper150g-v2
+python main.py --env-name=Hopper-v2 --env-parameter=gravity --sampled-envs=2 --algo-name=RIME+WSD
 
 # train the agent in the 3 sampled interaction environments setting
-python main.py --env-name=Hopper-v2 --env-parameter=gravity --sampled-envs=3 --algo-name=RIME+WSD --expert-path1=ED_Hopper050g-v2 --expert-path2=ED_Hopper-v2 --expert-path3=ED_Hopper150g-v2
+python main.py --env-name=Hopper-v2 --env-parameter=gravity --sampled-envs=3 --algo-name=RIME+WSD
 
 # train the agent in the 4 sampled interaction environments setting (2-dim perturbation parameter case)
-python main.py --env-name=Hopper-v2 --sampled-envs=4 --algo-name=RIME+WSD --expert-path1=ED_Hopper050g050m-v2 --expert-path2=ED_Hopper150g050m-v2 --expert-path3=ED_Hopper050g150m-v2 --expert-path4=ED_Hopper150g150m-v2
+python main.py --env-name=Hopper-v2 --sampled-envs=4 --algo-name=RIME+WSD
 ```
