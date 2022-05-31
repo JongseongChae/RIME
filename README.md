@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 
 ## Run Example 
-Training and Evaluating agents (via 10 random seeds). You can change env-parameter, algo-name as follows for selecting other dynamics perturbation type or testing other algorithms.
+For training and evaluating agents (via 10 random seeds). You can change env-parameter, algo-name as follows for selecting other dynamics perturbation type or testing other algorithms.
 + env-parameter: gravity / mass
 + algo-name: RIME / RIME+WSD / OMME / GAIL-Mixture / GAIL-Single
 ```
