@@ -6,4 +6,6 @@ unzip the provided `envs.zip` in the directory, and replace the original `envs` 
 
 If you can't find the `gym` folder in the directory, check the package version.
 
+* For gravity perturbation, we changed "gravity" in xml files.
+* For mass perturbation, we chaned "density" or "settotalmass".
 * `envs.zip` will be uploaded soon. We're sorry about that.
