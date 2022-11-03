@@ -1,4 +1,5 @@
-For perturbed environments, please try the follow.
+# Setting up train & test environments
+For train & test environments where are with fixed perturbed dynamics, please try the follow.
 
 In the directory `home/anaconda3/envs/"your virtual name"/lib/python3.7/site-packages/gym/`,
 unzip the provided `envs.zip` in the directory, and replace the original `envs` folder with the provided `envs` folder.
