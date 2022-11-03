@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 
 ## Run Example 
-For training agents (over 10 random seeds), we can change `env-parameter`, `algo-name` for selecting other dynamics perturbation type (for single dynamics parameter cases) or training other algorithms as follows:
+For training agents (over 10 random seeds), we can change `env-parameter` & `algo-name` for selecting other dynamics perturbation type (for single dynamics parameter cases) or training other algorithms as follows:
 + env-parameter: gravity / mass
 + algo-name: RIME / RIME+WSD / OMME / GAIL-Mixture / GAIL-Single
 ```
