@@ -7,18 +7,18 @@ The RIME code are modified from the codes of [pytorch-a2c-ppo-acktr](https://git
 ## Supported Environments
 + [MuJoCo](https://www.roboti.us/index.html) (via [OpenAI Gym](https://www.gymlibrary.ml/))
 
-I only tested MuJoCo 200 and used MuJoCo tasks with perturbed dynamics. I made these MuJoCo tasks with perturbed dynamics by changing components of xml files for tasks I want to introduce perturbations.
+For perturbed tasks, I only used `mujoco200` and made these MuJoCo tasks with perturbed dynamics by changing components in xml files for the tasks to introduce fixed dynamics perturbations. For more details, please go to the `environments` folder.
 
 
 ## Requirements
-I provide all libraries and packages for this codes. Try the follow
+I provide all libraries and packages for this codes.
 ```
 pip install -r requirements.txt
 ```
 
 
 ## Run Example 
-For training and evaluating agents (via 10 random seeds). You can change env-parameter, algo-name as follows for selecting other dynamics perturbation type or testing other algorithms.
+For training agents (over 10 random seeds), we can change `env-parameter`, `algo-name` for selecting other dynamics perturbation type (for single dynamics parameter cases) or training other algorithms as follows:
 + env-parameter: gravity / mass
 + algo-name: RIME / RIME+WSD / OMME / GAIL-Mixture / GAIL-Single
 ```
