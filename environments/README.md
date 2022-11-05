@@ -3,8 +3,8 @@ For train & test environments where are with fixed perturbed dynamics, please tr
 
 In the directory `home/anaconda3/envs/"your virtual name"/lib/python3.7/site-packages/gym/` (If you can't find the `gym` folder in the directory, please check the package version),\
 I changed one or more factors in the xml file of each perturbed environment:
-* For gravity perturbation, changed "gravity".
-* For mass perturbation, chaned "density" or "settotalmass".
+* For gravity perturbation, I changed "gravity".
+* For mass perturbation, I chaned "density" or "settotalmass".
 * Environment dynamics factors in the xml files were changed from the nominal value of the factors.
 
 ***
