@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from datetime import datetime
 from algorithm.arguments import get_args
+import environments
 
 if __name__ == '__main__':
     start_time = datetime.now()
