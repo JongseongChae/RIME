@@ -7,5 +7,5 @@ I changed one or more factors in the xml file of each perturbed environment:
 * Environment dynamics factors in the xml files were changed from the nominal value of the factors.
 
 If you have a problem while you run experiments, please follow the below instead.\
-Go to the directory `home/[user name]/anaconda3/envs/[your virtual env]/lib/python3.7/site-packages/gym/` (If you can't find the `gym` folder in the directory, please check the package version),\
+Go to the directory `home/[user name]/anaconda3/envs/[your virtual env]/lib/python[version]/site-packages/gym/` (If you can't find the `gym` folder in the directory, please check the package version),\
 then replace all the existing files/folders with our files/folders
